@@ -1,4 +1,4 @@
-#Files used for this data analysis
+Files used for this data analysis
 - 'features.txt': List of all features.
 - 'activity_labels.txt': Links the class labels with their activity name.
 - 'train/X_train.txt': Training set.
@@ -8,27 +8,27 @@
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 - 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
-#Transformation steps performed by the script
-1- ###Reading and creating a vector of feature names
-2- ###Reading the test set
-3- ###Reading the test activities labels vector
-4- ###Reading test subjects vector
-5- ###cbind the test set with test subjects vector and test activities labels vector
-6- ###Reading the training set
-7- ###Reading the training activities labels vector
-8- ###Reading training subjects vector
-9- ###cbind the train set with train subjects vector and train activities labels vector
-10- ###Merging the training and the test sets to create one data set
-11- ###Extracting only the measurements on the mean and standard deviation for each measurement
-12- ###Reading the activity labels file
-13- ###Using descriptive activity names to name the activities in the data set
-14- ###Labeling the data set with descriptive variable names
-15- ###Creating tidy data set with the average of each variable for each activity and each subject
-16- ###Writing out the tidy data
+Transformation steps performed by the script
+1- Reading and creating a vector of feature names
+2- Reading the test set
+3- Reading the test activities labels vector
+4- Reading test subjects vector
+5- cbind the test set with test subjects vector and test activities labels vector
+6- Reading the training set
+7- Reading the training activities labels vector
+8- Reading training subjects vector
+9- cbind the train set with train subjects vector and train activities labels vector
+10- Merging the training and the test sets to create one data set
+11- Extracting only the measurements on the mean and standard deviation for each measurement
+12- Reading the activity labels file
+13- Using descriptive activity names to name the activities in the data set
+14- Labeling the data set with descriptive variable names
+15- Creating tidy data set with the average of each variable for each activity and each subject
+16- Writing out the tidy data
 
 Each step was mentioned in the run_analysis.R script (as a comment) above the code that performed the step.
 
-#Features List
+Features List
 The output dataset include 81 variables: 2 grouping variables (subject and activity) and 79 measure variables that represent the average of each variable in the original dataset for each subject and each activity.
 
  [1] "subject"                                                    
